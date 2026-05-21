@@ -40,7 +40,7 @@ const Portfolio: React.FC = () => {
       description:
         "Vapp is an audio / video calling application with responsive ui and its created with web_rtc for audio / video calls implemntation and fcm for push notifications , firebase for signaling the achevement of creating this application is to get high quality voip ",
       image:
-        "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=600&h=400&fit=crop",
+        "https://res.cloudinary.com/dpoqqpqjv/image/upload/v1774432295/vmCCowvErtsV_1024_500_lyhlph.png",
       technologies: ["Flutter", "Dart", "Firebase", "Stripe API"],
       githubUrl: "https://github.com/omaressam/ecommerce-app",
       liveUrl:
