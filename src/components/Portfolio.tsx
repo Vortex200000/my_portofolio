@@ -124,7 +124,7 @@ const Portfolio: React.FC = () => {
       ],
       liveUrl: "",
       githubUrl: "",
-      category: "ui",
+      category: "mobile",
       images: [
         "https://res.cloudinary.com/dpoqqpqjv/image/upload/v1779402647/splash_dpx2i1.png",
         "https://res.cloudinary.com/dpoqqpqjv/image/upload/v1779402649/dashboard_qslciv.png",
@@ -142,13 +142,33 @@ const Portfolio: React.FC = () => {
       technologies: ["Flutter", "Dart", "Bloc", "Firestore", "FlutterMaps"],
       liveUrl: "",
       githubUrl: "",
-      category: "ui",
+      category: "mobile",
       images: [
         "https://res.cloudinary.com/dpoqqpqjv/image/upload/v1779439181/image1_q9curt.jpg",
         "https://res.cloudinary.com/dpoqqpqjv/image/upload/v1779439181/image2_agzagc.jpg",
         "https://res.cloudinary.com/dpoqqpqjv/image/upload/v1779439181/image3_m31hpo.jpg",
         "https://res.cloudinary.com/dpoqqpqjv/image/upload/v1779439181/image4_oogd1z.jpg",
         "https://res.cloudinary.com/dpoqqpqjv/image/upload/v1779439182/image5_z84gcj.jpg",
+      ],
+    },
+
+    {
+      id: "4",
+      title: "My Gym",
+      description:
+        "GymPro turns your phone into a personal trainer and nutritionist.",
+      image:
+        "https://res.cloudinary.com/dpoqqpqjv/image/upload/v1779441394/tu4veCIxQ3Pj_1024_500_m6qxyc.png",
+      technologies: ["Flutter", "Dart", "Bloc", "Firestore"],
+      liveUrl: "",
+      githubUrl: "",
+      category: "mobile",
+      images: [
+        "https://res.cloudinary.com/dpoqqpqjv/image/upload/v1779441407/image1_luv0hj.jpg",
+        "https://res.cloudinary.com/dpoqqpqjv/image/upload/v1779441408/image2_wqlgoz.jpg",
+        "https://res.cloudinary.com/dpoqqpqjv/image/upload/v1779441409/image3_prgn3u.jpg",
+        "https://res.cloudinary.com/dpoqqpqjv/image/upload/v1779441408/image4_leq3bl.jpg",
+        "https://res.cloudinary.com/dpoqqpqjv/image/upload/v1779441409/image5_xnabbi.jpg",
       ],
     },
   ];
