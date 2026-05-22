@@ -92,7 +92,7 @@ const Portfolio: React.FC = () => {
       description:
         "Smart task manager with reminders, calendar view & cloud backup.",
       image:
-        "https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?w=600&h=400&fit=crop",
+        "https://res.cloudinary.com/dpoqqpqjv/image/upload/v1779401681/XPrrCT0SvRFt_1024_500_y9qesq.png",
       technologies: ["Flutter", "Dart", "Firebase", "bloc", "Hive"],
       githubUrl: "https://github.com/omaressam/weather-app",
       liveUrl:
