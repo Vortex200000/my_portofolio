@@ -21,16 +21,17 @@ const Portfolio: React.FC = () => {
 
   useEffect(() => {
     // Load projects from localStorage or use default projects
-    const savedProjects = localStorage.getItem("portfolio-projects");
-    if (savedProjects) {
-      setProjects(JSON.parse(savedProjects));
-    } else {
-      setProjects(defaultProjects);
-      localStorage.setItem(
-        "portfolio-projects",
-        JSON.stringify(defaultProjects),
-      );
-    }
+    // const savedProjects = localStorage.getItem("portfolio-projects");
+    // if (savedProjects) {
+    //   setProjects(JSON.parse(savedProjects));
+    // } else {
+    //   setProjects(defaultProjects);
+    //   localStorage.setItem(
+    //     "portfolio-projects",
+    //     JSON.stringify(defaultProjects),
+    //   );
+    // }
+    setProjects(defaultProjects);
   }, []);
 
   const defaultProjects: Project[] = [
@@ -134,7 +135,7 @@ const Portfolio: React.FC = () => {
     },
 
     {
-      id: "4",
+      id: "5",
       title: "Wasalny Maak",
       description: "Simple ride requests application ",
       image:
@@ -153,7 +154,7 @@ const Portfolio: React.FC = () => {
     },
 
     {
-      id: "4",
+      id: "6",
       title: "My Gym",
       description:
         "GymPro turns your phone into a personal trainer and nutritionist.",
@@ -171,6 +172,44 @@ const Portfolio: React.FC = () => {
         "https://res.cloudinary.com/dpoqqpqjv/image/upload/v1779441409/image5_xnabbi.jpg",
       ],
     },
+
+    {
+      id: "6",
+      title: "Skye",
+      description: "Skye — Your weather, simplified.",
+      image:
+        "https://res.cloudinary.com/dpoqqpqjv/image/upload/v1785668917/gNbewmFBD02S_1024_500_sz2e3x.png",
+      technologies: ["Flutter", "Dart", "Bloc", "Firestore"],
+      liveUrl: "",
+      githubUrl: "",
+      category: "mobile",
+      images: [
+        "https://res.cloudinary.com/dpoqqpqjv/image/upload/v1785668085/image1_zwt7kl.jpg",
+        "https://res.cloudinary.com/dpoqqpqjv/image/upload/v1785668085/image2_k8wedm.jpg",
+        "https://res.cloudinary.com/dpoqqpqjv/image/upload/v1785668085/image3_osxxz8.jpg",
+        "https://res.cloudinary.com/dpoqqpqjv/image/upload/v1785668085/image4_clmstz.jpg",
+        "https://res.cloudinary.com/dpoqqpqjv/image/upload/v1785668085/image5_okklir.jpg",
+      ],
+    },
+    // {
+    //   id: "7",
+    //   title: "My ",
+    //   description:
+    //     "GymPro turns your phone into a personal trainer and nutritionist.",
+    //   image:
+    //     "https://res.cloudinary.com/dpoqqpqjv/image/upload/v1779441394/tu4veCIxQ3Pj_1024_500_m6qxyc.png",
+    //   technologies: ["Flutter", "Dart", "Bloc", "Firestore"],
+    //   liveUrl: "",
+    //   githubUrl: "",
+    //   category: "mobile",
+    //   images: [
+    //     "https://res.cloudinary.com/dpoqqpqjv/image/upload/v1779441407/image1_luv0hj.jpg",
+    //     "https://res.cloudinary.com/dpoqqpqjv/image/upload/v1779441408/image2_wqlgoz.jpg",
+    //     "https://res.cloudinary.com/dpoqqpqjv/image/upload/v1779441409/image3_prgn3u.jpg",
+    //     "https://res.cloudinary.com/dpoqqpqjv/image/upload/v1779441408/image4_leq3bl.jpg",
+    //     "https://res.cloudinary.com/dpoqqpqjv/image/upload/v1779441409/image5_xnabbi.jpg",
+    //   ],
+    // },
   ];
 
   const categories = [
