@@ -90,7 +90,7 @@ const Hero: React.FC = () => {
               {/* Profile Image */}
               <div className=" relative z-10 mx-auto w-80 h-80 rounded-2xl overflow-hidden shadow-2xl bg-black flex items-center justify-center ">
                 <img
-                  src="https://res.cloudinary.com/dpoqqpqjv/image/upload/v1754334401/WhatsApp_Image_2025-06-25_at_00.13.41_b44ab56f_kunzmv.jpg"
+                  src="https://res.cloudinary.com/dpoqqpqjv/image/upload/v1785746415/omar_port_j1ty7k.png"
                   alt="Omar Essam - Flutter Developer"
                   className="w-full h-full object-cover object-[50%_0%]"
                   crossOrigin="anonymous"
