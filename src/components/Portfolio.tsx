@@ -107,8 +107,27 @@ const Portfolio: React.FC = () => {
         "https://res.cloudinary.com/dpoqqpqjv/image/upload/v1779401712/image5_c47lhh.jpg",
       ],
     },
+
     {
       id: "4",
+      title: "Skye",
+      description: "Skye — Your weather, simplified.",
+      image:
+        "https://res.cloudinary.com/dpoqqpqjv/image/upload/v1785668917/gNbewmFBD02S_1024_500_sz2e3x.png",
+      technologies: ["Flutter", "Dart", "Bloc", "Firestore"],
+      liveUrl: "",
+      githubUrl: "",
+      category: "mobile",
+      images: [
+        "https://res.cloudinary.com/dpoqqpqjv/image/upload/v1785668085/image1_zwt7kl.jpg",
+        "https://res.cloudinary.com/dpoqqpqjv/image/upload/v1785668085/image2_k8wedm.jpg",
+        "https://res.cloudinary.com/dpoqqpqjv/image/upload/v1785668085/image3_osxxz8.jpg",
+        "https://res.cloudinary.com/dpoqqpqjv/image/upload/v1785668085/image4_clmstz.jpg",
+        "https://res.cloudinary.com/dpoqqpqjv/image/upload/v1785668085/image5_okklir.jpg",
+      ],
+    },
+    {
+      id: "5",
       title: "Gymier",
       description:
         "A gym management system (attendance, subscriptions, and progress tracking).",
@@ -135,7 +154,7 @@ const Portfolio: React.FC = () => {
     },
 
     {
-      id: "5",
+      id: "6",
       title: "Wasalny Maak",
       description: "Simple ride requests application ",
       image:
@@ -154,7 +173,7 @@ const Portfolio: React.FC = () => {
     },
 
     {
-      id: "6",
+      id: "7",
       title: "My Gym",
       description:
         "GymPro turns your phone into a personal trainer and nutritionist.",
@@ -173,24 +192,6 @@ const Portfolio: React.FC = () => {
       ],
     },
 
-    {
-      id: "6",
-      title: "Skye",
-      description: "Skye — Your weather, simplified.",
-      image:
-        "https://res.cloudinary.com/dpoqqpqjv/image/upload/v1785668917/gNbewmFBD02S_1024_500_sz2e3x.png",
-      technologies: ["Flutter", "Dart", "Bloc", "Firestore"],
-      liveUrl: "",
-      githubUrl: "",
-      category: "mobile",
-      images: [
-        "https://res.cloudinary.com/dpoqqpqjv/image/upload/v1785668085/image1_zwt7kl.jpg",
-        "https://res.cloudinary.com/dpoqqpqjv/image/upload/v1785668085/image2_k8wedm.jpg",
-        "https://res.cloudinary.com/dpoqqpqjv/image/upload/v1785668085/image3_osxxz8.jpg",
-        "https://res.cloudinary.com/dpoqqpqjv/image/upload/v1785668085/image4_clmstz.jpg",
-        "https://res.cloudinary.com/dpoqqpqjv/image/upload/v1785668085/image5_okklir.jpg",
-      ],
-    },
     // {
     //   id: "7",
     //   title: "My ",
