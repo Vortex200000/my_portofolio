@@ -116,7 +116,7 @@ const Portfolio: React.FC = () => {
         "https://res.cloudinary.com/dpoqqpqjv/image/upload/v1785668917/gNbewmFBD02S_1024_500_sz2e3x.png",
       technologies: ["Flutter", "Dart", "Bloc", "Firestore"],
       liveUrl: "",
-      githubUrl: "",
+      githubUrl: "https://github.com/Vortex200000/skye/releases/tag/weather",
       category: "mobile",
       images: [
         "https://res.cloudinary.com/dpoqqpqjv/image/upload/v1785668085/image1_zwt7kl.jpg",
